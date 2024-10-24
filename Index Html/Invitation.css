@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+html{
+
+    background-color: rgb(28, 9, 70);
+
+}
+div{
+    color: rgb(221, 182, 85);
+     text-align: center;
+    line-height:1.5;
+    font-weight:800;
+    padding: 100px;
+    
+   
+    
+   
+}
+.even{
+    font-family: "Playwrite DK Loopet", cursive;
+    font-weight: 200;
+    line-height:1.5;
+    font-size: 40px;
+}
+#e{
+    line-height:0.5;
+}
+
+footer{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}

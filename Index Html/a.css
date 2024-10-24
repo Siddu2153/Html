@@ -1,0 +1,41 @@
+.Grparent{
+    width: 600px;
+    height: 300px;
+    border: 2px solid gray;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+.Parent{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    
+    
+}
+.Parent1{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    left: 400px;
+    bottom: 100px;
+}
+
+.Child{
+    width: 200px;
+    height: 100px;
+    background-color:yellow;
+    position: relative;
+    left: 400px;
+}
+.Child1{
+    width: 200px;
+    height: 100px;
+    background-color:red;
+    position: relative;
+    bottom: 100px;
+}
+
+
+

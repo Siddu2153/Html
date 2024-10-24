@@ -1,0 +1,16 @@
+.Grparent{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid gray;
+    background-color: orange;
+}
+.Parent{
+    width: 200px;
+    height: 200px;
+    border:2px solid black;
+    position: relative;
+    margin: 0 auto;
+    top: 100px;
+    background-color: aquamarine;
+}

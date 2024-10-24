@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.Grparent{
+    width:700px;
+    height: 600px;
+    border: 2px solid gray;
+    margin: 0 auto;
+    position: relative;
+}
+.Grparent > div{
+    width: calc(100% / 5);
+    height: calc(100% / 5);
+    border: 2px solid black;
+}
+
+
+.Parent{
+    width: 200px;
+    height: 75px;
+    background-color: red;
+    position: relative;
+}
+.Parent1{
+    background-color: purple;
+    position: absolute;
+    right: 0px;
+}
+.Parent5{
+    background-color: rgb(17, 231, 238);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.Parent4{
+    background-color: rgb(72, 238, 17);
+    position: absolute;
+   
+    bottom: 0px;
+}
+.Parent3{
+    background-color: rgb(216, 238, 17);
+    position:static;
+    
+    
+}
